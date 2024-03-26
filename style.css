@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+#navbar {
+    position:fixed;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    /* background: gainsboro;  */
+
+
+
+}
+
+#navbar::before {
+    content: "";
+    background-color:rgb(229, 228, 228);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#logo {
+    margin: 10px 33px;
+
+}
+
+#logo img {
+    height: 36px;
+    width: 115px;
+    padding: 10px 0px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 140px;
+    color: black;
+}
+
+#navbar ul li {
+    /* border: 2px solid red; */
+    margin-left: 40px;
+    list-style: none;
+    font-size: 1.2rem;
+    
+
+
+}
+
+#navbar ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: gold;
+
+}
+#navbar ul li a:active {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+
+}
+
+/* Home Section  */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+#home::before {
+    content: "";
+    background: url(bg\ first.jpeg) center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.80;
+
+}
+
+#home p {
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+
+
+
+}
+
+.btn {
+ 
+    margin-top: 10px;
+    padding: 6px 20px;
+    border: 2px solid #45c1ff;
+    background-color: #f1eded;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.services-container {
+    margin-top: 120px;
+}
+
+#services {
+
+    display: flex;
+    margin: 30px;
+    /* border: 2px solid red; */
+}
+
+#services .box{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    /* border: 2px solid red; */
+    border-radius: 20px ;
+    background-color: #dff3eb;
+}
+
+#services .box img {
+    border-radius: 20px ;
+    display: block;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+
+
+}
+#services .box p{
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+.center{
+
+  text-align: center;
+
+    }
+
+
+/* clinet */
+#client-section{
+    height: 400px;
+   
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(bg\ first.jpeg) center/cover;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 20px;
+}
+#clients img{
+
+    height: 150px;
+    width: 280px;
+    
+    
+}
+
+/* contact Section  */
+#contact{
+    position: relative;
+
+   
+}
+#contact h1{
+    color: white;
+
+   
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(contact.jpg) center/cover;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.8;
+
+    
+}
+.contact-box{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+
+    /* border: 2px solid red; */
+
+}
+.contact-box input,
+.contact-box textarea{
+    width: 90%;
+    padding: 0.4rem;
+    font-weight: bold;
+    font-size: 1.0rem;
+    border-radius: 10px;
+
+ 
+
+
+}
+.contact-box form{
+    width: 40%;
+   
+}
+.contact-box label{
+    font-size: 1.4rem;
+    color: white;
+}
+footer{
+    color: white;
+    background-color: black;
+    padding: 9px 20px;
+}
+
+/* Create utility class */
+.h-primary {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 30px;
+    font-style: italic;
+    justify-content: center;
+    
+}
+
+h-secondary{
+   
+    font-size: 2.8rem;
+ 
+  
+}
